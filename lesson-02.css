@@ -36,8 +36,43 @@ body {
     line-height: 13px;
 }
 
+.product-card__rating {
+    margin: 15px 15px 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row
+}
+
+.star {
+    margin-right: 4px;
+}
+
+.star-active {
+    width: 13px;
+    height: 12px;
+    background-image: url(img/star-full.svg);
+}
+
+.star-not-active {
+    width: 13px;
+    height: 12px;
+    background-image: url(img/star-null.svg);
+}
+
+.rating-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+}
+
 .product-card__cost {
-    margin: 25px 15px 21px 15px;
+    margin: 20px 15px 21px 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
