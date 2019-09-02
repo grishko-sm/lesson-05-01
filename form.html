@@ -1,0 +1,62 @@
+<form
+action="https://echo.htmlacademy.ru/"
+method="post">
+    <fieldset>
+        <legend>Personal Information: </legend>
+        <div>
+            <label for="">
+                Surname:
+                <input type="text" name="surname">
+            </label>
+        </div>
+        <div>
+            <label for="">
+                Name:
+                <input type="text" name="name">
+            </label>
+        </div>
+        <div>
+            <label for="">
+                How old are you:
+                <input type="number" name="age" value="12" min="12" max="150">
+            </label>
+        </div>  
+        <div>
+            <label for="">
+                Full date of birth:
+                <input type="date" name="dataBrith" value="dd/mm/yyyy">
+            </label>
+        </div>  
+        <div>
+            <label for="">
+                I accept the term of the agreement:
+                <input type="checkbox" name="agreement" required>
+            </label>
+        </div>   
+        
+    </fieldset>
+    <fieldset>
+            <legend>Registration: </legend>
+            <div>
+                <label for="">
+                    You machine:
+                    <select name="machine">
+                        <option value="tesla">Tesla</option>
+                        <option value="volvo" selected>Volvo</option>
+                        <option value="nisan">Nisan</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    Get you message:
+                    <textarea name="message"></textarea>
+                </label>
+            </div>
+
+    </fieldset>
+    <div>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+    </div>
+</form>
